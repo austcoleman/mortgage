@@ -1,5 +1,5 @@
 # Mortgage library
-A library that helps first time property buyers with their *mortgages*.
+A library that helps first time property buyers with their *mortgages*. There are a huge amount of figures, rates, clauses etc. that come with a standard quote for a mortgage. This can often be very daunting to a first time buyer, especially with no knowledge of the housing market. Our library helps these people to understand these figures as much as possible, be it the overall cost of repayment, the suggest maximum mortgage based on a monthly budget estimate, or the LTV of the mortgage. We also provide a service to compare the rates of four of the biggest and most common banking societies in the UK, to give an **unbiased** opinion on which deal is the best for you.
 
 ## Usage
 - mortgage.**compare**(*mortgage amount*,*length of contract*) - A function that compares a number of mortgage quotes from banking societies, given two separate rates (fixed/variable), giving you strictly the cheapest option.
@@ -43,7 +43,7 @@ A library that helps first time property buyers with their *mortgages*.
 
 - ```python
     mortgage.fixed_rate(220000,1.1,18,5.6,282)
+        
         £ 387487.64
         5.043
     ```
-    
