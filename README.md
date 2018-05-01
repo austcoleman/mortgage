@@ -23,9 +23,12 @@ A library that helps first time property buyers with their *mortgages*.
 ## Examples
 (*Before all following functions, ```install mortgage```, is required*)
 
-```mortgage.compare(300000,24)
-Barclays:     (4.404, '£486489.95')
-HSBC:         (3.834, '£459342.73')
-Principality: (3.685, '£452417.47')
-RBS:          (3.598, '£448391.81')
-RBS```
+```
+mortgage.compare(300000,24)
+
+    Barclays:     (4.404, '£486489.95')
+    HSBC:         (3.834, '£459342.73')
+    Principality: (3.685, '£452417.47')
+    RBS:          (3.598, '£448391.81')
+    RBS
+```
