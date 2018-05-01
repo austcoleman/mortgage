@@ -21,7 +21,7 @@ A library that helps first time property buyers with their *mortgages*.
 - mortgage.**fixed_rate**(*mortgage amount*,*initial rate*,*length with initial rate*,*second rate*,*length with second rate*) - A function that returns the fixed rate for comparison , based on an initial and then variable mortgage rate, and also the overall cost of the mortgage.
 
 ## Examples
-(*Before all following functions, `install mortgage`, is required*)
+(*Before all following functions, ```install mortgage```, is required*)
 
 - mortgage.compare(300000,24)
     >>Barclays:     (4.404, '£486489.95')
