@@ -24,12 +24,26 @@ A library that helps first time property buyers with their *mortgages*.
 (*Before all following functions, ```install mortgage```
  , is required*)
 
-```python
-mortgage.compare(300000,24)
+- ```python
+    mortgage.compare(300000,24)
 
-    Barclays:     (4.404, '£486489.95')
-    HSBC:         (3.834, '£459342.73')
-    Principality: (3.685, '£452417.47')
-    RBS:          (3.598, '£448391.81')
-    RBS
-```
+        Barclays:     (4.404, '£486489.95')
+        HSBC:         (3.834, '£459342.73')
+        Principality: (3.685, '£452417.47')
+        RBS:          (3.598, '£448391.81')
+        RBS
+    ```
+
+- ```python
+    mortgage.ltv(25000,212000)
+
+        88.21 %
+        88.20754716981132 
+    ```
+
+- ```python
+    mortgage.fixed_rate(220000,1.1,18,5.6,282)
+        £ 387487.64
+        5.043
+    ```
+    
