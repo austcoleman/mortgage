@@ -24,6 +24,7 @@ A library that helps first time property buyers with their *mortgages*.
 (*Before all following functions, ```install mortgage```, is required*)
 
 ```
+python
 mortgage.compare(300000,24)
 
     Barclays:     (4.404, '£486489.95')
